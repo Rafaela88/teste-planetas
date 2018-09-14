@@ -1,0 +1,5 @@
+package com.planetas.api.documents;
+
+public class Cliente {
+
+}

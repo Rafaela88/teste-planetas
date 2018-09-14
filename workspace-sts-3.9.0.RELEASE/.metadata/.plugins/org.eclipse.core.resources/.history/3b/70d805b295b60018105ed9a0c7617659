@@ -1,0 +1,46 @@
+package com.planetas.api.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.planetas.api.documents.Planeta;
+import com.planetas.api.repositories.PlanetaRepository;
+import com.planetas.api.services.PlanetaService;
+
+@Service
+public class ClienteServiceImpl implements PlanetaService {
+	
+	@Autowired
+	private PlanetaRepository planetaRepository;
+		
+	public List<Planeta> listarTodos() {
+		
+		return this.planetaRepository.findAll();
+	}
+
+	@Override
+	public Planeta listarPorId(String id) {		
+		return this.planetaRepository.findOne(id);
+	}
+
+
+	public Planeta cadastrar(Planeta planeta) {
+		
+		return null;
+	}
+
+
+	public Planeta atualizar(Planeta planeta) {
+		
+		return null;
+	}
+
+	
+	public void remover(String id) {
+		
+
+	}
+
+}

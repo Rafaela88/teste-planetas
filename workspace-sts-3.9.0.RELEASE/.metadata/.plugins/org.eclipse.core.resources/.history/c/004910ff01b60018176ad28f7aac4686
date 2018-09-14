@@ -1,0 +1,40 @@
+package com.planetas.api.services.impl;
+
+import java.util.List;
+
+import com.planetas.api.documents.Planeta;
+import com.planetas.api.services.PlanetaService;
+
+public class ClienteServiceImpl implements PlanetaService {
+
+	@Override
+	public List<Planeta> listarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Planeta listarPorId(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Planeta cadastrar(Planeta planeta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Planeta atualizar(Planeta planeta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remover(String id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

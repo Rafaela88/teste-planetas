@@ -1,0 +1,42 @@
+package com.planetas.api.services.impl;
+
+import java.util.List;
+
+import com.planetas.api.documents.Planeta;
+import com.planetas.api.repositories.PlanetaRepository;
+import com.planetas.api.services.PlanetaService;
+
+public class ClienteServiceImpl implements PlanetaService {
+	
+	private PlanetaRepository planetaREpository;
+		
+	public List<Planeta> listarTodos() {
+		
+		return null;
+	}
+
+
+	public Planeta listarPorId(String id) {
+		
+		return null;
+	}
+
+
+	public Planeta cadastrar(Planeta planeta) {
+		
+		return null;
+	}
+
+
+	public Planeta atualizar(Planeta planeta) {
+		
+		return null;
+	}
+
+	
+	public void remover(String id) {
+		
+
+	}
+
+}
